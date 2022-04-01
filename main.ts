@@ -51,6 +51,7 @@ let Bullet_from_enemy: game.LedSprite = null
 let Bullet: game.LedSprite = null
 let Enemy: game.LedSprite = null
 let Player: game.LedSprite = null
+basic.showString("Never gonna give you up")
 Player = game.createSprite(2, 4)
 music.playMelody("B A G B E C5 E C5 ", 500)
 Enemy = game.createSprite(0, 0)
